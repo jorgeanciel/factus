@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-medium";
+  src: url("assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-semibold";
+  src: url("assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+  font-family: "Montserrat-medium";
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
